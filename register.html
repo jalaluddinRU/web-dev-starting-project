@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<!-- Use GET, not POST...... Use "div" for dividing a block of code and "span" for dividing a part of a single line -->
+	<!-- <div></div> / <span> </span>-->
+	<div>
+		<form method="GET">
+			<span>First name:</span> <input type="text" name="firstname"><br>
+			Last name:  <input type="text" name="lastname"><br>
+			Email: <input type="email" name="email" required><br>
+			Password: <input type="password" name="password"min="5">
+			Birthday: <input type="date" name="birthday"><br>
+			Gender:<br> 
+			<input type="radio" name="gender" value="male">Male<br>
+			<input type="radio" name="gender" value="female">Female<br>
+			<input type="radio" name="gender" value="other">Other<br>
+			Pets:<br>
+			<input type="checkbox" name="cat">BILAI<br>
+			<input type="checkbox" name="dog">Doggo<br>
+			<input type="checkbox" name="bird">Birdy<br>
+			Cars: <br>
+			<select name="cars">
+				<option value="volvo">Volvo</option>
+				<option value="audi">Audi</option>
+			</select><br>
+			<input type="submit" value="Register">
+			<input type="reset">
+		</form>
+	</div>
+</body>
+</html>
+
